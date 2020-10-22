@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/temp_background"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/head_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:gravity="start"
+        android:text="تموم کردن فیلم های کاتلین"
+        android:textColor="#150639"
+        android:textDirection="rtl"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="تموم کردن فیلم های کاتلین"
+        android:textColor="#413167"
+        android:textDirection="rtl"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:textSize="14dp"
+      />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ویرایش"
+            android:textColor="#FFFF"
+            android:textSize="14dp"
+            android:background="@drawable/temp_btn"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="حذف"
+            android:textColor="#FFFF"
+            android:textSize="14dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/temp_btn"/>
+    </LinearLayout>
+
+
+</LinearLayout>
