@@ -47,5 +47,5 @@ class DBManager(private val context : Context) {
 
     fun delete( selection: String , selectionArgs: Array<String>):Int = sqlDB.delete(tableName , selection , selectionArgs)
 
-    fun update( selection: String , selectionArgs: Array<String>):Int = sqlDB.delete(tableName ,  selection , selectionArgs)
+    fun update( values: ContentValues ,selection: String , selectionArgs: Array<String>):Int = sqlDB.delete(tableName ,  selection , selectionArgs)
 }
